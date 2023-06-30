@@ -21,3 +21,10 @@ img {
     margin-top: 120px;
     margin-left: 50px;
 }
+
+.description2 {
+    font-style: oblique;
+    text-align: center;
+    font-size: 24px;
+    text-shadow: green 2px 2px 2px;
+}
