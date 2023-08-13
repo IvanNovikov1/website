@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Advertisement
+#from .models import Advertisement
 
 
 class AdvertisementAdmin(admin.ModelAdmin):
