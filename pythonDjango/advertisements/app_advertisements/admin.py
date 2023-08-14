@@ -1,9 +1,9 @@
 from django.contrib import admin
-#from .models import Advertisement
+from .models import Advertisement
 
 
 class AdvertisementAdmin(admin.ModelAdmin):
-    list_display = ['id', 'title', 'description', 'created_date', 'auction']
+    list_display = ['id', 'title', 'description', 'created_date', 'updated_date', 'auction']
     list_filter = ['created_at', 'auction']
 
 
