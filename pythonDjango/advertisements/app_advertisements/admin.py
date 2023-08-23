@@ -3,7 +3,7 @@ from .models import Advertisement
 
 
 class AdvertisementAdmin(admin.ModelAdmin):
-    list_display = ['id', 'title', 'description', 'created_date', 'updated_date', 'auction']
+    list_display = ['id', 'user', 'title', 'description', 'created_date', 'updated_date', 'auction', 'img']
     list_filter = ['created_at', 'auction']
 
 
