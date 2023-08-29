@@ -32,4 +32,10 @@ def advertisement_post(request):
         context = {'form': form}
         return render(request, 'app_advertisements/advertisement-post.html', context=context)
 
+
+def advertisement_detail(request, pk):
+    advertisement = Advertisement.objects.get(id=pk)
+    context = {'advertisement': advertisement}
+    return render(request, 'app_advertisements/advertisement.html', context=context)
+
 # Create your views here.
